@@ -10,27 +10,32 @@
 </head>
 
 <body>
-    <div class="banner">
+    <info>
+        <h1> Areas of interest | Patisia City</h1>
+    </info>
+    <section>
         <div class="content">
-            <h1> Περιοχές ξεκούρασης</h1>
-            <img src="map.png">
+            <img id="map_im" src="map.png">
 
-            <a class="ref1" href="#" onclick="toggle(); playVi();" >VideoDemo</a>
-            <div class="video1">
-                <video src="video1.mp4" controls="true"></video>
-                <img src="close.png" class="close" onclick=" stopVi(); toggle(); ">
+            <div class="tooltip-1">
+                <a class="ref1" href="#" onclick="toggle(); playVi();">VideoDemo</a>
+                <div class="video1">
+                    <video src="video1.mp4" controls="true"></video>
+                    <img src="close.png" class="close" onclick=" stopVi(); toggle(); ">
+                </div>
             </div>
 
-
-            <a class="ref2" href="#" onclick="toggle2(); playVi();">VideoDemo2</a>
-            <div class="video2">
-                <video src="presentation-video.mp4" controls="true"></video>
-                <img src="close.png" class="close" onclick="  stopVi(); toggle2();">
+            <div class="tooltip-2">
+                <a class="ref2" href="#" onclick="toggle2(); playVi();">VideoDemo2</a>
+                <div class="video2">
+                    <video src="presentation-video.mp4" controls="true"></video>
+                    <img src="close.png" class="close" onclick="  stopVi(); toggle2();">
+                </div>
             </div>
 
             <script src="myscripts.js"></script>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>
