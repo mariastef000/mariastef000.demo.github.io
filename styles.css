@@ -152,7 +152,7 @@ section {
 }
 
 @media (max-width:991px) {
-    .video1 video {
+    .video2 video {
         max-width: 90%;
     }
 }
