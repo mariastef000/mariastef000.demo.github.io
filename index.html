@@ -17,17 +17,20 @@
         <div class="content">
             <img id="map_im" src="map.png">
 
-            <div class="tooltip-1">
-                <a class="ref1" href="#" onclick="toggle(); playVi();">VideoDemo</a>
-                <div class="video1">
-                    <video src="video1.mp4" controls="true"></video>
+            <div class="tooltip tooltip-1">
+                <a class="ref ref1" href="#" onclick="toggle(); playVi();"><span class="reftext ref1text">Αγία Βαρβάρα</span></a>
+                <div class="video video1">
+                    <figure><video src="video1.mp4" controls="true"></video>
+                        <figcaption>Αγία Βαρβάρα <br> Η εκκλησία που βρίσκεται δίπλα στον σταθμό</figcaption>
+                    </figure>
                     <img src="close.png" class="close" onclick=" stopVi(); toggle(); ">
+
                 </div>
             </div>
 
-            <div class="tooltip-2">
-                <a class="ref2" href="#" onclick="toggle2(); playVi();">VideoDemo2</a>
-                <div class="video2">
+            <div class="tooltip tooltip-2">
+                <a class="ref ref2" href="#" onclick="toggle2(); playVi();"><span class="reftext ref2text">Πάρκο <br> Δημητρακόπουλου</span></a>
+                <div class="video video2">
                     <video src="presentation-video.mp4" controls="true"></video>
                     <img src="close.png" class="close" onclick="  stopVi(); toggle2();">
                 </div>
