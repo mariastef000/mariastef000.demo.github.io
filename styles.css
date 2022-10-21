@@ -5,15 +5,17 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     width: 100%;
 }
 
 h1 {
-    padding: 100px;
-    background-color: rgb(255, 241, 176);
-    font-size: 4em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding:150px;
+    background-color: rgb(255, 255, 255);
+    font-size: 6em;
+    font-family:  'Manrope', sans-serif;
+    font-weight: 900;
 }
 
 @media screen and (max-width: 700px) {
@@ -23,6 +25,39 @@ h1 {
     }
 }
 
+.wrapper1 {
+    margin:0 auto;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    margin: 20px;
+    font-weight: 300;
+    font-size:2em;
+    font-family: 'Manrope', sans-serif;
+  }
+  @media screen and (max-width: 700px) {
+    .text {
+        font-size: 1em;
+    }
+}
+.ARdiv{
+height:auto;
+}
+.ARdiv2{
+    max-width: 900px;
+    margin: 40px;
+}
+@media screen and (max-width: 700px) {
+    .download {
+        width:120px;
+    }
+}
 section {
     width: 100%;
     display: flex;
@@ -178,4 +213,21 @@ figure {
         left: 72%;
         top: 51%;
     }
+<<<<<<< HEAD
 }
+.tooltipAR {
+    left: 70%;
+    top: 54.5%;
+    position: absolute;
+}
+.refAR {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgba(219, 219, 219, 0);
+    border-radius: 50%;
+    display: inline-block;
+    animation: shadow-pulse 2s infinite;
+}
+=======
+}
+>>>>>>> d1273dc41c385f390c9232b1da598fa606ce0812
