@@ -213,6 +213,7 @@ figure {
         left: 72%;
         top: 51%;
     }
+<<<<<<< HEAD
 }
 .tooltipAR {
     left: 70%;
@@ -227,3 +228,6 @@ figure {
     display: inline-block;
     animation: shadow-pulse 2s infinite;
 }
+=======
+}
+>>>>>>> d1273dc41c385f390c9232b1da598fa606ce0812
