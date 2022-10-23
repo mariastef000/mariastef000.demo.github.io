@@ -20,7 +20,7 @@ h1 {
 
 @media screen and (max-width: 700px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 3em;
         padding: 50px;
     }
 }
@@ -48,20 +48,8 @@ h1 {
         font-size: 1em;
     }
 }
-
-.ARdiv {
-    height: auto;
-}
-
-.ARdiv2 {
-    max-width: 900px;
-    margin: 40px;
-}
-
-@media screen and (max-width: 700px) {
-    .download {
-        width: 120px;
-    }
+#third_ar{
+    padding-left: 40px;
 }
 
 section {
@@ -72,6 +60,7 @@ section {
     overflow-x: hidden;
     overflow-y: hidden;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .content {
@@ -208,6 +197,19 @@ figure {
     }
 }
 
+.tooltip-3 {
+    left: 70%;
+    top: 42.5%;
+    position: absolute;
+}
+
+@media screen and (max-width: 700px) {
+    .tooltip-3 {
+        left: 69.5%;
+        top: 41.5%;
+    }
+}
+
 .tooltip-2 {
     left: 72.5%;
     top: 51.5%;
@@ -223,9 +225,17 @@ figure {
 }
 
 .tooltipAR {
-    left: 70%;
-    top: 54.5%;
+    left: 70.5%;
+    top: 55.2%;
     position: absolute;
+}
+
+@media (max-width:991px) {
+    .tooltipAR {
+        left: 68.5%;
+        top: 52.5%;
+    }
+
 }
 
 .refAR {
@@ -235,4 +245,19 @@ figure {
     border-radius: 50%;
     display: inline-block;
     animation: shadow-pulse 2s infinite;
+}
+
+
+.ARdiv {
+    height: auto;
+}
+
+.ARdiv2 {
+    max-width: 900px;
+}
+
+@media screen and (max-width: 700px) {
+    .download {
+        width: 120px;
+    }
 }
