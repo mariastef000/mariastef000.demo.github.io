@@ -8,6 +8,11 @@ function toggle2() {
     video2.classList.toggle("active");
 }
 
+function toggle3() {
+    var video3 = document.querySelector(".video3")
+    video3.classList.toggle("active");
+}
+
 
 function playVi(){
     var videos = document.getElementsByTagName("video");
