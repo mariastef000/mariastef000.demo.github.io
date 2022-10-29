@@ -63,6 +63,7 @@ body {
     border-radius: 100%;
     background: rgba(255, 255, 255);
 }
+
 .indicator2 {
     display: block;
     position: absolute;
@@ -73,6 +74,7 @@ body {
     border-radius: 100%;
     background: rgba(255, 255, 255);
 }
+
 .mouse {
     border: 6px solid rgb(0, 0, 0);
     border-radius: 50%;
@@ -200,7 +202,7 @@ section {
     width: auto;
     background-color: black;
     color: #fff;
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.80rem;
     letter-spacing: 2px;
     text-align: center;
@@ -375,6 +377,12 @@ footer {
 
 footer p {
     padding-top: 45px;
-    font-family: roboto;
-    font-size: 0.80rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.90rem;
+}
+
+@media screen and (max-width: 800px) {
+    footer p {
+        font-size: 0.70em;
+    }
 }
