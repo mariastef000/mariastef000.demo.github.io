@@ -10,49 +10,64 @@
 </head>
 
 <body>
-    <info>
-        <h1> Πατήσια </h1>
-    </info>
-    <div class="wrapper1">
-        <img class="icon1" src="demo2.png" style="width:60px; height:60px; border-radius: 50%" ;>
-        <span class="text">Εξερεύνησε την περιοχή</span>
-    </div><br>
-    <div class="wrapper1">
-        <img class="icon1" src="circle2.png" style="width:60px; height:60px; border-radius: 50%" ;>
-        <span class="text">Δες τα βιντεάκια</span>
-    </div><br>
-    <div class="wrapper1" id="third_ar">
-        <img class="icon1" src="ar.png" style="width:60px; height:60px" ;>
-        <span class="text">Πηγαινε στον πραγματικό χώρο για να ζήσεις μια AR εμπειρία*</span>
+    <div class="contVideo">
+        <div class="pimg1">
+            <video id="bannerVi" autoplay muted loop>
+                <source src="trailer.mp4" type="video/mp4">
+            </video>
+        </div>
+        <span class="ptext">
+            <h1> Άνω Πατήσια </h1>
+        </span>
     </div>
-    <section>
-        <div class="content">
-            <img id="map_im" src="map_final.png">
-
-            <div class="tooltip tooltip-1">
-                <a class="ref ref1" href="#" onclick="toggle(); playVi();"><span class="reftext ref1text">Αγία
-                        Βαρβάρα</span></a>
-                <div class="video video1">
-                    <figure><video src="video_agia.mp4" controls="true"></video>
-                        <figcaption>Αγία Βαρβάρα <br> Η εκκλησία που βρίσκεται δίπλα στον σταθμό</figcaption>
-                    </figure>
-                    <img src="close.png" class="close" onclick=" stopVi(); toggle(); ">
-
-                </div>
+    <div class="indicator">
+        <div class="mouse"></div>
+    </div>
+    <div class="indicator2"></div>
+    
+    <div class="container">
+        <div class="wrappers">
+            <div class="wrapper1">
+                <img class="icon1" src="demo2.png" style="width:60px; height:60px; border-radius: 50%" ;>
+                <span class="text">Εξερεύνησε την περιοχή</span>
+            </div><br>
+            <div class="wrapper1">
+                <img class="icon1" src="circle2.png" style="width:60px; height:60px; border-radius: 50%" ;>
+                <span class="text">Δες τα βιντεάκια</span>
+            </div><br>
+            <div class="wrapper1" id="third_ar">
+                <img class="icon1" src="ar.png" style="width:60px; height:60px" ;>
+                <span class="text">Πηγαινε στον πραγματικό χώρο για να ζήσεις μια AR εμπειρία*</span>
             </div>
+        </div>
+        <section>
+            <div class="content">
+                <img id="map_im" src="map_final.png">
+                <div class="tooltip tooltip-1">
+                    <a class="ref ref1" href="#" onclick="toggle(); playVi();"><span class="reftext ref1text">Αγία
+                            Βαρβάρα</span></a>
+                    <div class="video video1">
+                        <figure><video src="video_agia.mp4" controls="true"></video>
+                            <figcaption>Αγία Βαρβάρα <br> Η εκκλησία που βρίσκεται δίπλα στον σταθμό</figcaption>
+                        </figure>
+                        <img src="close.png" class="close" onclick=" stopVi(); toggle(); ">
 
-            <div class="tooltip tooltip-3">
-                <a class="ref ref3" href="#" onclick="toggle3(); playVi();"><span class="reftext ref3text">Σπίτι</span></a>
-                <div class="video video3">
-                    <figure><video src="video1.mp4" controls="true"></video>
-                        <figcaption>Καθημερινές συζητήσεις</figcaption>
-                    </figure>
-                    <img src="close.png" class="close" onclick=" stopVi(); toggle3(); ">
-
+                    </div>
                 </div>
-            </div>
 
-            <!-- <div class="tooltip tooltip-2">
+                <div class="tooltip tooltip-3">
+                    <a class="ref ref3" href="#" onclick="toggle3(); playVi();"><span
+                            class="reftext ref3text">Σπίτι</span></a>
+                    <div class="video video3">
+                        <figure><video src="video1.mp4" controls="true"></video>
+                            <figcaption>Καθημερινές συζητήσεις</figcaption>
+                        </figure>
+                        <img src="close.png" class="close" onclick=" stopVi(); toggle3(); ">
+
+                    </div>
+                </div>
+
+                <!-- <div class="tooltip tooltip-2">
                 <a class="ref ref2" href="#" onclick="toggle2(); playVi();"><span class="reftext ref2text">Πάρκο
                         Δρακόπουλου</span></a>
                 <div class="video video2">
@@ -61,20 +76,28 @@
                 </div>
             </div> -->
 
-            <div class="tooltip tooltipAR">
-                <a class="refAR"><span class="reftext refARtext" style="background-color:  white ; color: black;">AR</span></a>
-            </div>
+                <div class="tooltip tooltipAR">
+                    <a class="refAR"><span class="reftext refARtext"
+                            style="background-color:  white ; color: black;">AR</span></a>
+                </div>
 
-            <script src="myscripts.js"></script>
+                <script src="myscripts.js"></script>
+            </div>
+        </section>
+        <div class="wrapper1 ARdiv">
+            <img class="download" src="blippar.png" width="200px" ;>
+            <div class="ARdiv2">
+                <p class="text textAR">* Αν δεν καταφέρεις να πας στον πραγματικό χώρο, τότε σκάναρε
+                    αυτόν τον κωδικό με το κινητό σου και ζήσε την εμπειρία από τον χώρο σου</p>
+            </div>
         </div>
-    </section>
-    <div class="wrapper1 ARdiv">
-        <img class="download" src="blippar.png" width="200px" ;>
-        <div class="ARdiv2">
-            <p class="text textAR">* Αν δεν καταφέρεις να πας στον πραγματικό χώρο, τότε σκάναρε
-                αυτόν τον κωδικό με το κινητό σου και ζήσε την εμπειρία από τον χώρο σου</p>
-        </div>
+        <footer>
+            <p>Information and Communication Technologies in Education
+                <br> National and Kapodistrian University of Athens <br><br>
+                Created by Maria Stefanou | 2022</p>
+        </footer>
     </div>
+
 </body>
 
 </html>
