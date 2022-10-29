@@ -13,16 +13,18 @@ function toggle3() {
     video3.classList.toggle("active");
 }
 
-
 function playVi(){
     var videos = document.getElementsByTagName("video");
 }
 
 function stopVi(){
     var videos = document.querySelectorAll('iframe, video');
+    const mapIm = document.getElementById('map_im');
 	Array.prototype.forEach.call(videos, function (video) {
 		if (video.tagName.toLowerCase() === 'video') {
 			video.pause(); video.currentTime = 0;
+            location.reload(); 
+            mapIm.scrollIntoView();
 		} else {
 			var src = video.src;
 			video.src = src;
