@@ -17,17 +17,14 @@ body {
 
 @media (max-width:800px) {
     .contVideo {
-        height: 50vh;
+        height: 100vh;
     }
     .pimg1 video {
-    transform: translate(-50%, -100%) !important;
-    /* 
     display: flex;
     justify-content: center;
     align-items: center;
 
     DELETE height from above to work
-    */
     }
 }
 
