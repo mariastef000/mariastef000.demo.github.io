@@ -20,11 +20,14 @@
             <h1> Άνω Πατήσια </h1>
         </span>
     </div>
-    <div class="indicator">
-        <div class="mouse"></div>
+
+    <div id="indicators">
+        <div class="indicator">
+            <div class="mouse"></div>
+        </div>
+        <div class="indicator2"></div>
     </div>
-    <div class="indicator2"></div>
-    
+
     <div class="container">
         <div class="wrappers">
             <div class="wrapper1">
@@ -42,16 +45,17 @@
         </div>
         <section>
             <div class="content">
-                <img id="map_im" src="map_final.png">
+                <img id="map_im" src="mapp.png">
                 <div class="tooltip tooltip-1">
                     <a class="ref ref1" href="#" onclick="toggle(); playVi();"><span class="reftext ref1text">Αγία
                             Βαρβάρα</span></a>
                     <div class="video video1">
-                        <figure><video src="video_agia.mp4" controls="true"></video>
+                        <figure><iframe class="video-responsive" title="vimeo-player"
+                            src="https://player.vimeo.com/video/788780521?h=dff4e4f550" width="840" height="560"
+                            frameborder="0" allowfullscreen></iframe>
                             <figcaption>Αγία Βαρβάρα <br> Η εκκλησία που βρίσκεται δίπλα στον σταθμό</figcaption>
                         </figure>
                         <img src="close.png" class="close" onclick=" stopVi(); toggle(); ">
-
                     </div>
                 </div>
 
@@ -59,22 +63,53 @@
                     <a class="ref ref3" href="#" onclick="toggle3(); playVi();"><span
                             class="reftext ref3text">Σπίτι</span></a>
                     <div class="video video3">
-                        <figure><video src="video1.mp4" controls="true"></video>
+                        <figure><iframe class="video-responsive" title="vimeo-player"
+                            src="https://player.vimeo.com/video/788780772?h=c996ec45ee" width="840" height="560"
+                            frameborder="0" allowfullscreen></iframe>
                             <figcaption>Καθημερινές συζητήσεις</figcaption>
                         </figure>
                         <img src="close.png" class="close" onclick=" stopVi(); toggle3(); ">
-
                     </div>
                 </div>
 
-                <!-- <div class="tooltip tooltip-2">
-                <a class="ref ref2" href="#" onclick="toggle2(); playVi();"><span class="reftext ref2text">Πάρκο
-                        Δρακόπουλου</span></a>
-                <div class="video video2">
-                    <video src="presentation-video.mp4" controls="true"></video>
-                    <img src="close.png" class="close" onclick="  stopVi(); toggle2();">
+                <div class="tooltip tooltip-5">
+                    <a class="ref ref5" href="#" onclick="toggle5(); playVi();"><span
+                            class="reftext ref5text">Ματσούκα</span></a>
+                    <div class="video video5">
+                        <figure><iframe class="video-responsive" title="vimeo-player"
+                            src="https://player.vimeo.com/video/788780999?h=1d9b6c48b4" width="840" height="560"
+                            frameborder="0" allowfullscreen></iframe>
+                            <figcaption>Στα γαλλικά </figcaption>
+                        </figure>
+                        <img src="close.png" class="close" onclick=" stopVi(); toggle5(); ">
+                    </div>
                 </div>
-            </div> -->
+
+                <div class="tooltip tooltip-2">
+                    <a class="ref ref2" href="#" onclick="toggle2(); playVi();"><span class="reftext ref2text">Πάρκο
+                            Δρακοπούλου</span></a>
+                    <div class="video video2">
+                        <figure><iframe class="video-responsive" title="vimeo-player"
+                                src="https://player.vimeo.com/video/788781301?h=9eacf93216" width="840" height="560"
+                                frameborder="0" allowfullscreen></iframe>
+                            <figcaption>Στο Δρακόπουλο με τον Βασίλη</figcaption>
+                        </figure>
+                        <img src="close.png" class="close" onclick="  stopVi(); toggle2();">
+                    </div>
+                </div>
+
+                <div class="tooltip tooltip-4">
+                    <a class="ref ref4" href="#" onclick="toggle4(); playVi();"><span
+                            class="reftext ref4text">Γέφυρα</span></a>
+                    <div class="video video4">
+                        <figure><iframe class="video-responsive" title="vimeo-player"
+                            src="https://player.vimeo.com/video/788782494?h=6315fb35d9" width="840" height="560"
+                            frameborder="0" allowfullscreen></iframe>
+                            <figcaption>Για να βλέπεις τα τρένα να περνούν με την Έρρικα</figcaption>
+                        </figure>
+                        <img src="close.png" class="close" onclick="  stopVi(); toggle4();">
+                    </div>
+                </div>
 
                 <div class="tooltip tooltipAR">
                     <a class="refAR"><span class="reftext refARtext"
@@ -94,7 +129,8 @@
         <footer>
             <p>Information and Communication Technologies in Education
                 <br> National and Kapodistrian University of Athens <br><br>
-                Created by Maria Stefanou | <b>2022</b></p>
+                Created by Maria Stefanou | <b>2022</b>
+            </p>
         </footer>
     </div>
 
