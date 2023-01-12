@@ -23,8 +23,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    DELETE height from above to work
     }
 }
 
@@ -194,7 +192,7 @@ section {
 
 @keyframes shadow-pulse {
     0% {
-        -webkit-box-shadow: 0px 0px 0px 20px rgba(240, 240, 240, 0.479);        
+        -webkit-box-shadow: 0px 0px 0px 15px rgba(240, 240, 240, 0.479);        
         transform: scale(1);
     }
 
@@ -226,8 +224,8 @@ section {
 
 @media screen and (max-width: 800px) {
     .ref {
-        height: 1rem;
-        width: 1rem;
+        height: 0.7rem;
+        width: 0.7rem;
     }
 
     .tooltip .reftext {
@@ -313,19 +311,35 @@ figure {
         top: 41.5%;
     }
 }
+.tooltip-5 {
+    left: 70%;
+    top: 37%;
+    position: absolute;
+}
+
+@media screen and (max-width: 700px) {
+    .tooltip-5 {
+        left: 69.5%;
+        top: 37%;
+    }
+}
 
 .tooltip-2 {
     left: 72.5%;
     top: 51.5%;
     position: absolute;
 }
-
-@media (max-width:991px) {
+@media screen and (max-width: 700px) {
     .tooltip-2 {
-        left: 72%;
-        top: 51%;
+        left: 72.5%;
+        top: 50.5%;
     }
+}
 
+.tooltip-4 {
+    left: 54%;
+    top: 37%;
+    position: absolute;
 }
 
 .tooltipAR {
@@ -336,18 +350,33 @@ figure {
 
 @media (max-width:991px) {
     .tooltipAR {
-        left: 69.5%;
-        top: 54.2%;
+        left: 70%;
+        top: 55%;
     }
-
 }
-
+@media (max-width:800px) {
+    .tooltipAR {
+        left: 71%;
+        top: 54%;
+    }
+}
+@media (max-width:700px) {
+    .tooltipAR {
+        left: 71%;
+        top: 54%;
+    }
+}
+@media (max-width:600px) {
+    .tooltipAR {
+        left: 71%;
+        top: 53%;
+    }
+}
 @media (max-width:500px) {
     .tooltipAR {
-        left: 68%;
+        left: 71%;
         top: 52%;
     }
-
 }
 
 .refAR {
@@ -358,7 +387,12 @@ figure {
     display: inline-block;
     animation: shadow-pulse 2s infinite;
 }
-
+@media screen and (max-width: 800px) {
+    .refAR {
+        height: 0.1rem;
+        width: 0.1rem;
+    }
+}
 
 .ARdiv {
     height: auto;
@@ -393,4 +427,8 @@ footer p {
     footer p {
         font-size: 0.70em;
     }
+}
+
+.video-responsive{
+    width:100vw;
 }
