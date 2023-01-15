@@ -347,7 +347,11 @@ figure {
     top: 59%;
     position: absolute;
 }
-
+.tooltip-7 {
+    left: 61.3%;
+    top: 32%;
+    position: absolute;
+}
 .tooltipAR {
     left: 70.5%;
     top: 55.2%;
@@ -449,6 +453,15 @@ figure {
 @media screen and (max-width: 700px) {
     .download {
         width: 120px;
+    }
+}
+
+#codes_phone{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    #codes_phone {
+        display:block;
     }
 }
 
