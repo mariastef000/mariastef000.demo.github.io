@@ -24,6 +24,10 @@ function toggle6() {
     var video6 = document.querySelector(".video6")
     video6.classList.toggle("active");
 }
+function toggle7() {
+    var video7 = document.querySelector(".video7")
+    video7.classList.toggle("active");
+}
 function playVi(){
     var videos = document.getElementsByTagName("video");
 }
