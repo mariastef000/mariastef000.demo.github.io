@@ -385,6 +385,38 @@ figure {
     }
 }
 
+.tooltipAR2 {
+    left: 27%;
+    top: 29.5%;
+    position: absolute;
+}
+
+@media (max-width:991px) {
+    .tooltipAR2 {
+        left: 26.5%;
+        top: 29%;
+    }
+}
+@media (max-width:800px) {
+    .tooltipAR2 {
+        left: 27.9%;
+        top: 28.3%;
+    }
+}
+
+@media (max-width:600px) {
+    .tooltipAR2 {
+        left: 28%;
+        top: 27.2%;
+    }
+}
+@media (max-width:500px) {
+    .tooltipAR2 {
+        left: 27.7%;
+        top: 25.5%;
+    }
+}
+
 .refAR {
     height: 1.5rem;
     width: 1.5rem;
@@ -409,6 +441,11 @@ figure {
     max-width: 900px;
 }
 
+@media screen and (max-width: 800px) {
+    .codes {
+        padding-left: 30px;
+    }
+}
 @media screen and (max-width: 700px) {
     .download {
         width: 120px;
