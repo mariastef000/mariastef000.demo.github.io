@@ -352,6 +352,16 @@ figure {
     top: 32%;
     position: absolute;
 }
+.tooltip-8 {
+    left: 25%;
+    top: 67%;
+    position: absolute;
+}
+.tooltip-9 {
+    left: 33%;
+    top: 76%;
+    position: absolute;
+}
 .tooltipAR {
     left: 70.5%;
     top: 55.2%;
