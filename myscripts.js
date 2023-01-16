@@ -28,6 +28,14 @@ function toggle7() {
     var video7 = document.querySelector(".video7")
     video7.classList.toggle("active");
 }
+function toggle8() {
+    var video8 = document.querySelector(".video8")
+    video8.classList.toggle("active");
+}
+function toggle9() {
+    var video9 = document.querySelector(".video9")
+    video9.classList.toggle("active");
+}
 function playVi(){
     var videos = document.getElementsByTagName("video");
 }
